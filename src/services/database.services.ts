@@ -1,7 +1,7 @@
 import { MongoClient, Db, Collection } from 'mongodb'
 import { envConfig } from '~/constants/config'
 import User from '~/models/schemas/User.schema'
-const uri = `mongodb+srv://${envConfig.DATABASE_USER}:${envConfig.DATABASE_PASSWORD}@sandbox.zw2ujou.mongodb.net/?retryWrites=true&w=majority`
+const uri = `mongodb+srv://damduchai04052000:JQJvo1Ymf8wvX8or@sandbox.zw2ujou.mongodb.net/?retryWrites=true&w=majority`
 class DatabaseService {
   private client: MongoClient
   private db: Db
